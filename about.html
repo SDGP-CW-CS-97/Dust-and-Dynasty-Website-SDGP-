@@ -9,6 +9,20 @@
     <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="stylesheet" href="css/style.css?v=19">
     <script src="js/script.js?v=17" defer></script>
+
+    <style>
+        .team-card {
+            border: 1px solid var(--gold);
+            border-radius: 8px;
+            padding: 24px;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+
+        .team-card .team-img {
+            margin-top: 16px;
+        }
+    </style>
 </head>
 <body>
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -30,42 +44,51 @@
             </nav>
         </div>
     </header>
-    <section id="team" class="team-section">
-        <div class="container">
-        <h2 class="section-title">Meet the Team</h2>
-        <p class="section-subtitle">The students behind Dust & Dynasties.</p>
-            <div class = "team-grid">
-                <div class="team-card">
-                    <img src="" alt="photo of product owner" class="team-img">
-                    <h3>Dinuththara Herath</h3>
-                    <p class="Role">Product Owner</p>
-                    <p>Leading client commucation , managing the backlog , and ensuring the game aligns with the school syllabus</p>
+
+    <main id="main-content" tabindex="-1">
+        <section id="team" class="team-section">
+            <div class="container">
+                <h2 class="section-title">Meet the Team</h2>
+                <p class="section-subtitle">The students behind Dust &amp; Dynasties.</p>
+
+                <div class="team-grid">
+                    <div class="team-card">
+                        <h3>Dinuththara Herath</h3>
+                        <p class="Role">Product Owner</p>
+                        <p>Leading client communication, managing the backlog, and ensuring the game aligns with the school syllabus.</p>
+                        <img src="images/dinuththara.jpg" alt="Dinuththara Herath" class="team-img" width="250">
+                    </div>
+
+                    <div class="team-card">
+                        <h3>Anjana Dodammullage</h3>
+                        <p class="Role">Scrum Master &amp; Lead Developer</p>
+                        <p>Facilitating Agile ceremonies, writing the backend code, and managing the database.</p>
+                        <img src="images/anjana.jpg" alt="Anjana Dodammullage" class="team-img" width="250">
+                    </div>
+
+                    <div class="team-card">
+                        <h3>Venuri Wijesinghe</h3>
+                        <p class="Role">UI/UX Designer &amp; Frontend Developer</p>
+                        <p>Designing the visual style in Figma, creating wireframes, and building the user interface.</p>
+                        <img src="images/venuri.jpg" alt="Venuri Wijesinghe" class="team-img" width="250">
+                    </div>
+
+                    <div class="team-card">
+                        <h3>Imako Paranamana</h3>
+                        <p class="Role">QA &amp; Content Developer</p>
+                        <p>Testing the game, researching history textbook content, and translating text into Sinhala and Tamil.</p>
+                        <img src="images/imako.jpg" alt="Imako Paranamana" class="team-img" width="250">
+                    </div>
+
+                    <div class="team-card">
+                        <h3>Kiuri Amarasinghe</h3>
+                        <p class="Role">Content &amp; Localization Developer</p>
+                        <p>Creating engaging educational content, verifying historical accuracy, and managing the Sinhala and Tamil translations.</p>
+                        <img src="images/kiuri.jpg" alt="Kiuri Amarasinghe" class="team-img" width="250">
+                    </div>
                 </div>
-                <div class="team-card">
-                    <img src="" alt="photo of Scrum Master & Lead Developer " class="team-img">
-                    <h3>Anjana Dodammullage </h3>
-                    <p class="Role">Scrum Master & Lead Developer</p>
-                    <p>Facilitating Agile ceremonies, writing the backend code, and managing the database.</p>
-                </div>
-                <div class="team-card">
-                    <img src="" alt="photo of UI/UX Designer & Frontend Developer" class="team-img">
-                    <h3>Venuri Wijesinghe</h3>
-                    <p class="Role"> UI/UX Designer & Frontend Developer</p>
-                    <p>Designing the visual style in Figma, creating wireframes, and building the user interface</p>
-                </div>
-                <div class="team-card">
-                    <img src="" alt="photo of QA & Content Developer" class="team-img">
-                    <h3>Imako Paranamana</h3>
-                    <p class="Role">QA & Content Developer</p>
-                    <p>Testing the game, researching history textbook content, and translating text into Sinhala and Tamil.</p>
-                </div>
-                <div class="team-card">
-                    <img src="" alt="photo of Content & Localization Developer" class="team-img">
-                    <h3>Kiuri Amarasinghe</h3>
-                    <p class="Role">Content & Localization Developer</p>
-                    <p>Creating engaging educational content, verifying historical accuracy, and managing the Sinhala and Tamil translations.</p>
-                </div>
-               
+            </div>
+        </section>
     </main>
 </body>
 </html>
