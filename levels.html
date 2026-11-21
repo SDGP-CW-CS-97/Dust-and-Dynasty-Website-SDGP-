@@ -57,10 +57,27 @@
             margin-bottom: 0;
         }
 
+        .levels-page .explore-card h3 {
+            overflow-wrap: anywhere;
+        }
+
+        .levels-page .footer-col a,
+        .levels-page .privacy-note a {
+            overflow-wrap: anywhere;
+        }
+
+        .levels-page #waitlist-privacy {
+            scroll-margin-top: 150px;
+        }
+
         @media (max-width: 700px) {
             .levels-page #chapters .explore-card,
             .levels-page #how-it-works .explore-card {
                 padding: 24px;
+            }
+
+            .levels-page #chapters h3 {
+                font-size: 30px;
             }
 
             .levels-page #chapter-activities h2 br {
@@ -186,6 +203,22 @@
                 </div>
             </div>
         </section>
+
+        <section class="section waitlist-section" aria-labelledby="levels-waitlist-heading">
+            <div class="container">
+                <div class="waitlist-box reveal">
+                    <p class="eyebrow">Currently in development</p>
+                    <h2 id="levels-waitlist-heading">Want to try the <span>first chapter?</span></h2>
+                    <p class="waitlist-text">We are still working on the game. Leave your email and we will let you know when it is ready to try.</p>
+                    <a class="button button-primary button-glow" href="https://forms.gle/94GLRnpf9ukQ2SD98" target="_blank" rel="noopener">Join the waitlist</a>
+
+                    <p class="privacy-note" id="waitlist-privacy">
+                        The waitlist uses Google Forms. We use your responses to send updates about testing and the launch. To leave the list or ask us to delete your response, email
+                        <a href="mailto:contact@dustdynasties.lk">contact@dustdynasties.lk</a>.
+                    </p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
@@ -212,19 +245,15 @@
             <div class="footer-col">
                 <h4>Contact</h4>
                 <ul>
-                    <li><a href="mailto:hello@dustanddynasties.com">hello@dustanddynasties.com</a></li>
+                    <li><a href="mailto:contact@dustdynasties.lk">contact@dustdynasties.lk</a></li>
                     <li><a href="https://forms.gle/94GLRnpf9ukQ2SD98" target="_blank" rel="noopener">Join the waitlist</a></li>
-                    <li><a href="index.html#waitlist">Privacy</a></li>
+                    <li><a href="#waitlist-privacy">Privacy</a></li>
                 </ul>
             </div>
 
             <div class="footer-col">
                 <h4>Follow us</h4>
-                <ul>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">LinkedIn</a></li>
-                </ul>
+                <p>Links coming soon.</p>
             </div>
         </div>
 
@@ -234,4 +263,4 @@
         </div>
     </footer>
 </body>
-</html> 
+</html>
