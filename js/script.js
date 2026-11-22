@@ -35,3 +35,15 @@ if ("IntersectionObserver" in window && !reducedMotion.matches) {
         revealObserver.observe(item);
     });
 }
+
+const backToTop = document.querySelector(".back-to-top");
+
+if (backToTop) {
+    function updateBackToTop() {
+        backToTop.classList.toggle("is-visible", window.scrollY > 600);
+    }
+
+    updateBackToTop();
+
+    window.addEventListener("scroll", updateBackToTop, { passive: true });
+}
