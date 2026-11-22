@@ -1296,3 +1296,70 @@ body {
 .privacy-note a {
     overflow-wrap: anywhere;
 }
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+.team-card {
+    flex: 0 1 calc((100% - 48px) / 3);
+    min-width: 0;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background-color: rgba(26, 26, 58, 0.6);
+    transition: border-color 0.25s ease;
+}
+
+.team-card:hover {
+    border-color: var(--gold);
+}
+
+.team-photo {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.team-info {
+    padding: 24px;
+}
+
+.team-info h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.team-role {
+    margin-bottom: 14px;
+    color: var(--gold);
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.team-info p:last-child {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+@media (max-width: 1000px) {
+    .team-card {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+}
+
+@media (max-width: 700px) {
+    .team-card {
+        flex-basis: 100%;
+    }
+
+    .team-photo {
+        aspect-ratio: 1 / 1;
+    }
+}

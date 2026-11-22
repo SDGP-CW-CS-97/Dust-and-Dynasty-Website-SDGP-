@@ -21,21 +21,8 @@
     <meta name="twitter:image" content="https://dustdynasties.lk/images/social-preview.jpg">
     <title>About | Dust &amp; Dynasties</title>
     <link rel="icon" type="image/png" href="images/logo.png">
-    <link rel="stylesheet" href="css/style.css?v=20">
+    <link rel="stylesheet" href="css/style.css?v=21">
     <script src="js/script.js?v=17" defer></script>
-    <style>
-        .team-card {
-            border: 1px solid var(--gold);
-            border-radius: 8px;
-            padding: 24px;
-            margin-top: 24px;
-            margin-bottom: 24px;
-        }
-
-        .team-card .team-img {
-            margin-top: 16px;
-        }
-    </style>
 </head>
 <body class="about-page">
     <a class="skip-link" href="#main-content">Skip to content</a>
@@ -71,46 +58,59 @@
             </div>
         </section>
 
-        <section id="team" class="team-section">
+        <section class="section" id="team" aria-labelledby="team-heading">
             <div class="container">
-                <h2 class="section-title">Meet the Team</h2>
-                <p class="section-subtitle">The students behind Dust &amp; Dynasties.</p>
+                <div class="center reveal">
+                    <p class="eyebrow">The team</p>
+                    <h2 id="team-heading">Meet the <span>team.</span></h2>
+                    <p class="section-intro">We work in sprints as a Scrum team, with a Product Owner, a Scrum Master and three developers.</p>
+                </div>
 
                 <div class="team-grid">
-                    <div class="team-card">
-                        <h3>Dinuththara Herath</h3>
-                        <p class="Role">Product Owner</p>
-                        <p>Leading client communication, managing the backlog, and ensuring the game aligns with the school syllabus.</p>
-                        <img src="images/dinuththara.jpg" alt="Dinuththara Herath" class="team-img" width="250">
-                    </div>
+                    <article class="team-card reveal">
+                        <img class="team-photo" src="images/dinuththara.jpg" alt="Dinuththara Herath" loading="lazy">
+                        <div class="team-info">
+                            <h3>Dinuththara Herath</h3>
+                            <p class="team-role">Product Owner</p>
+                            <p>Talks to our client, keeps the product backlog in order and makes sure the game follows the school syllabus.</p>
+                        </div>
+                    </article>
 
-                    <div class="team-card">
-                        <h3>Anjana Dodammullage</h3>
-                        <p class="Role">Scrum Master &amp; Lead Developer</p>
-                        <p>Facilitating Agile ceremonies, writing the backend code, and managing the database.</p>
-                        <img src="images/anjana.jpg" alt="Anjana Dodammullage" class="team-img" width="250">
-                    </div>
+                    <article class="team-card reveal">
+                        <img class="team-photo" src="images/venuri.jpg" alt="Venuri Wijesinghe" loading="lazy">
+                        <div class="team-info">
+                            <h3>Venuri Wijesinghe</h3>
+                            <p class="team-role">Scrum Master / UI and UX</p>
+                            <p>Runs our sprint meetings and designs the game screens and prototype in Figma.</p>
+                        </div>
+                    </article>
 
-                    <div class="team-card">
-                        <h3>Venuri Wijesinghe</h3>
-                        <p class="Role">UI/UX Designer &amp; Frontend Developer</p>
-                        <p>Designing the visual style in Figma, creating wireframes, and building the user interface.</p>
-                        <img src="images/venuri.jpg" alt="Venuri Wijesinghe" class="team-img" width="250">
-                    </div>
+                    <article class="team-card reveal">
+                        <img class="team-photo" src="images/anjana.jpg" alt="Anjana Dodammullage" loading="lazy">
+                        <div class="team-info">
+                            <h3>Anjana Dodammullage</h3>
+                            <p class="team-role">Development Team / Website</p>
+                            <p>Built this website and set up the dustdynasties.lk domain, the waitlist form and our contact email.</p>
+                        </div>
+                    </article>
 
-                    <div class="team-card">
-                        <h3>Imako Paranamana</h3>
-                        <p class="Role">QA &amp; Content Developer</p>
-                        <p>Testing the game, researching history textbook content, and translating text into Sinhala and Tamil.</p>
-                        <img src="images/imako.jpg" alt="Imako Paranamana" class="team-img" width="250">
-                    </div>
+                    <article class="team-card reveal">
+                        <img class="team-photo" src="images/imako.jpg" alt="Imako Paranamana" loading="lazy">
+                        <div class="team-info">
+                            <h3>Imako Paranamana</h3>
+                            <p class="team-role">Development Team / Front end</p>
+                            <p>Builds the parts of the game players see and use, from the menus to the quiz screens.</p>
+                        </div>
+                    </article>
 
-                    <div class="team-card">
-                        <h3>Kiuri Amarasinghe</h3>
-                        <p class="Role">Content &amp; Localization Developer</p>
-                        <p>Creating engaging educational content, verifying historical accuracy, and managing the Sinhala and Tamil translations.</p>
-                        <img src="images/kiuri.jpg" alt="Kiuri Amarasinghe" class="team-img" width="250">
-                    </div>
+                    <article class="team-card reveal">
+                        <img class="team-photo" src="images/kiuri.jpg" alt="Kiuri Amarasinghe" loading="lazy">
+                        <div class="team-info">
+                            <h3>Kiuri Amarasinghe</h3>
+                            <p class="team-role">Development Team / Back end</p>
+                            <p>Works on the parts players do not see, like accounts, saved progress and scores.</p>
+                        </div>
+                    </article>
                 </div>
             </div>
         </section>
