@@ -1288,3 +1288,11 @@ body {
         transform: none;
     }
 }
+
+#waitlist-privacy {
+    scroll-margin-top: 150px;
+}
+
+.privacy-note a {
+    overflow-wrap: anywhere;
+}
