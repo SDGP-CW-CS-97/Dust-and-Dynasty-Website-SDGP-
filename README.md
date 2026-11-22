@@ -1,6 +1,6 @@
 # Dust & Dynasties
 
-Dust & Dynasties is a Sri Lankan history learning game we’re building for Grade 7 to 9 students as part of our university group project.
+Dust & Dynasties is a Sri Lankan history game for PC that we’re building for Grade 7 to 9 students as part of our university group project.
 
 The idea is to help students learn about the kings, kingdoms and places from their textbooks through stories, quizzes and puzzles. 
 
