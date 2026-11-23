@@ -23,7 +23,7 @@ Website: https://dustdynasties.lk
 - Features: the planned features and how the game works
 - Levels: the chapter for each grade, kingdoms, tiers and activities
 - About: our team, roles and why we are building it
-- Download: what you need to play, the roadmap, FAQ and waitlist
+- Play (download.html): what you need to play, the roadmap, FAQ and waitlist
 
 The game is still in development, so some details on the website may change as we work on the project.
 
