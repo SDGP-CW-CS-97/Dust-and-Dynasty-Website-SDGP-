@@ -203,7 +203,7 @@ a:focus-visible, button:focus-visible {
             rgba(10, 10, 26, 0.85),
             rgba(10, 10, 26, 0.45)
         ),
-        url("../images/home-background.jpg");
+        url("../images/home-background.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -463,7 +463,7 @@ a:focus-visible, button:focus-visible {
             rgba(16, 16, 32, 0.88),
             rgba(16, 16, 32, 0.92)
         ),
-        url("../images/home-background.jpg");
+        url("../images/home-background.webp");
     background-size: cover;
     background-position: center;
     border-top: 1px solid var(--border);
@@ -990,7 +990,7 @@ a:focus-visible, button:focus-visible {
                 rgba(10, 10, 26, 0.65),
                 rgba(10, 10, 26, 0.85)
             ),
-            url("../images/home-background.jpg");
+            url("../images/home-background.webp");
     }
 
     .intro h1 {

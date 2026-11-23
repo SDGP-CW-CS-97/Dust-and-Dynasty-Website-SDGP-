@@ -21,11 +21,11 @@ Website: https://dustdynasties.lk
 
 - Home: an introduction to the game and why we’re making it
 - Features: the planned features and how the game works
-- Levels: the learning journey and topics
-- About: our team and contributions
-- Download: release information when the game is ready
+- Levels: the chapter for each grade, kingdoms, tiers and activities
+- About: our team, roles and why we are building it
+- Download: what you need to play, the roadmap, FAQ and waitlist
 
-The website and game are still in development. Some sections are unfinished and may change as we work on the project.
+The game is still in development, so some details on the website may change as we work on the project.
 
 ## Running locally
 
